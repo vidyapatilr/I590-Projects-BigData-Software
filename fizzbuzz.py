@@ -1,7 +1,12 @@
-import sys
+""" Program to find multiples of 2 and 3 """
+
+""" Ask User to enter an integer """
+
 n = input('Enter an integer: ')
 
-def multi(n):
+""" Define function fizzbuzz """
+
+def fizzbuzz(n):
      for i in range(1,n):
         if i % 2 == 0 and i % 3 == 0:
            print "fizzbuzz"
@@ -11,4 +16,4 @@ def multi(n):
            print "buzz"
         else:
            print i
-multi(n)
+fizzbuzz(n)
